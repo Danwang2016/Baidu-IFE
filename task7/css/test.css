@@ -1,0 +1,6 @@
+*{margin: 0;padding: 0}
+.main{float: left;}
+.one{width: 100px;height: 100px;background: #ccc;}
+.two{width: 100px;height: 100px;background: #ccc;}
+.three{width: 100px;height: 100px;background: #ccc;}
+.one,.two,.three{float: left;}

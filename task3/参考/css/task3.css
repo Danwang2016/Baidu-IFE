@@ -1,0 +1,13 @@
+*{margin: 0;padding: 0}
+div{box-sizing: border-box;}
+    .container,.left,.right,.center{padding:20px;border:1px solid #999;}
+    .container {background-color: #eee;min-height: 580px;}
+    .left {width: 200px;float: left;background-color: #fff;}
+    .right {width: 120px;float: right;background-color: #fff;}
+    .center {min-height:400px;margin-left:220px;margin-right:140px;background-color: #fff;overflow:overflow;}
+    #grouplogo {width: 80px;height: 80px;float: left;}
+    #groupname {font-weight: bold;color:darkblue;float: left;text-indent: 10px;}
+    .memberlogo {width: 80px;height: 80px;border:1px solid #999;}
+    #member1,#member2,#member3,#member4{margin-bottom:15px;}
+    .center p{text-indent: 1cm; }
+    .center a{text-decoration: none;}

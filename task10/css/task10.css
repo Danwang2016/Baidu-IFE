@@ -1,0 +1,54 @@
+.wrap {
+    display: flex;
+    flex
+
+/*定义弹性盒子元素的排列方向。*/
+    flex-direction: row;
+
+/*
+控制flex容器是单行或者多行。
+nowrap：flex容器为单行。该情况下flex子项可能会溢出容器
+wrap：flex容器为多行。该情况下flex子项溢出的部分会被放置到新行，子项内部会发生断行
+wrap-reverse：反转 wrap 排列。
+*/
+    flex-wrap:wrap;
+    align-items: center;
+    /*设置或检索弹性盒子元素在主轴（横轴）方向上的对齐方式。*/
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.box {
+    width: 150px;
+    border: solid 1px #f00;
+    margin-bottom: 20px;
+    justify-content: flex-start;
+    box-sizing: border-box;
+    flex-flow: row wrap;
+}
+
+#box1 {
+    height: 120px;
+}
+
+#box2 {
+    height: 100px;
+}
+
+#box3 {
+    height: 40px;
+}
+
+#box4 {
+    height: 200px;
+    border-color: #0f0;
+}
+
+@media screen and (max-width:640px) {
+    .wrap {
+        align-items: flex-start;
+    }
+    #box4 {
+        order: -1;
+    }
+}

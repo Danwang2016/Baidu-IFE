@@ -1,0 +1,12 @@
+html,body{margin: 0;padding: 0;}
+div{box-sizing: border-box;}
+.main,.teaminfo,.teammember,.teamcontent{padding: 20px;}
+.main{background: #eee;min-height: 480px;}
+.teaminfo,.teammember,.teamcontent{border: solid 1px #999;background: #ffffff;}
+.teaminfo img{height: 80px;width: 80px;float: left;}
+.teaminfo span{position: relative;left:10px;color: darkblue;font-weight: 900;}
+.teaminfo{width: 200px;float: left;}
+.teammember{min-height: 420px; width: 120px;float: right;}
+.teamcontent{margin-left: 220px;margin-right: 140px;}
+.teammember img{height: 80px;width: 80px;margin-bottom: 20px;}
+#lastimg{margin-bottom: 0px;}
